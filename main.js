@@ -73,7 +73,7 @@
 
 // 10.
 //
-const names = 'Colin|Mesuara|Drew|In Seop|Emma|Ben|J|Ryan|Olgy|Mike|Chris|John';
+const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|Bogdan|Sharod|David|LaToddra|Carlos';
 
 // Console out the individual letters of each person in class today, which are
 // in the string above. Every time you start a new name (including the first
