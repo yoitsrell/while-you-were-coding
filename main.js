@@ -11,7 +11,7 @@
 
 // 1.
 //
-// Write a function that takes in a paramter and prints the string below, with the given paramter place of the $ symbol.
+// Write a function that takes in a parameter and prints the string below, with the given paramter place of the $ symbol.
 // 
 // ###### Challenge $ #####
 //
