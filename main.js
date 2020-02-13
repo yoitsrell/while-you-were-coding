@@ -20,8 +20,8 @@
 // Even though we'll USUALLY be calling this function with a number indicating the challenge we're on, THIS TIME call it with the parameter 'Banner Function Works!'. You should see the below result:
 //
 // ###### Challenge Banner Function Works! #####
-//
-//
+
+
 // 2.
 //
 // Console out the numbers from 1-20, but only if they're divisible by 3.
