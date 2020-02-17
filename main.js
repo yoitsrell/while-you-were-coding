@@ -5,8 +5,6 @@
 // Instead, our focus is going to be on console.logging the characters at certain indices of strings.
 //
 
-
-
 // ##### Challenges #####
 
 // 1.
@@ -21,59 +19,104 @@
 //
 // ###### Challenge Banner Function Works! #####
 
+function banner(n){
+    console.log('#####' + ' Challenge ' + n + ' ' + '#####')
+}
 
+banner('$')
 // 2.
 //
 // Console out the numbers from 1-20, but only if they're divisible by 3.
 
 // Use `if` and a modulus operation.
+banner(2)
 
-
+for (let twenty = 1; twenty < 20; twenty++){
+if(twenty % 3 === 0){
+    console.log(twenty)
+}
+}
 // 3.
 //
 // Same problem as #2, but no `if`s, `mods`, or `but`s (and no, `but` is not a JavaScript tool). There may be more ways to solve this problem without `if` or `%` (there usually are in JavaScript!), but if you did it the way we did, you should run the loop 6 times with console log per loop iteration.
+banner(3)
 
-
+let newOne = 0
+do {
+    newOne += 3;
+    console.log(newOne)
+}while (newOne < 18){}
 
 // 4.
 //
 // Console out the numbers from 1-20. BACKWARDS.
+banner(4)
 
+for (let backwards = 20; backwards >= 1; backwards--){
+    //if(twenty % 1 === 0){
+        console.log(backwards)
+        //backwards = backwards - 1
+    }
+    //}
 
 // 5.
 //
 // For the string 'Boy howdy am I good at this!', console out the letters
 // individually.
+banner(5)
 
-
+let str = "Boy howdy am I good at this!"
+for (let i = 0; i < str.length; i++)
+    console.log(str.charAt(i))
 // 6.
 //
 // For the string, 'And getting better every day.', starting with the second
 // character, print out every third character.
+banner(6)
 
+let string = "And getting better every day."
+for (let i = 1; i < string.length; i=i+3)
+    console.log(string.charAt(i))
 
 // 7. 
 //
 // For the string 'Am I the best?', console out the letters individually, AND
 // UPPERCASED.
+banner(7)
 
-
+let upper = "Am I the best?"
+for (let i = 0; i < upper.length; i++)
+    console.log(upper.charAt(i).toUpperCase())
 // 8.
 //
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
+banner(8)
 
+//let up3 = "Whoa, I am the best!"
+//for (let i = 0; i < up3.length; i++){}
+//    console.log(up3.charAt(i).toUpperCase()
 
 // 9.
 //
 // For the string 'I am become death, destroyer of worlds.', console out the letters
 //  individually, but backwards. That is, the first console log should be
 // `.`, followed by `s`, followed by `d`, and so on.
+banner('9')
+
+let def1 = "I am become death, destroyer of worlds."
+for (let i = def1.length - 1; i >= 0; i--){
+    console.log(def1[i])
+}
 
 
 // 10.
 //
+
+banner(10)
+
 const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|Bogdan|Sharod|David|LaToddra|Carlos';
+
 
 // Console out the individual letters of each person in class today, which are
 // in the string above. Every time you start a new name (including the first
