@@ -92,11 +92,14 @@ for (let i = 0; i < upper.length; i++)
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
 banner(8)
+let str5 = "Whoa, I am the best!"
+let newStr = str5.split("")
 
-//let up3 = "Whoa, I am the best!"
-//for (let i = 0; i < up3.length; i++){}
-//    console.log(up3.charAt(i).toUpperCase()
-
+for(i=0;i < newStr.length; i++){
+    if(i === 8 || i === 9)
+    console.log(newStr[i].toUpperCase())
+    else
+    console.log(newStr[i])} 
 // 9.
 //
 // For the string 'I am become death, destroyer of worlds.', console out the letters
