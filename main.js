@@ -36,6 +36,12 @@ if(twenty % 3 === 0){
     console.log(twenty)
 }
 }
+
+//let num=1;
+//while(num<=20){
+    //if (num %3 === 0){}
+//}
+
 // 3.
 //
 // Same problem as #2, but no `if`s, `mods`, or `but`s (and no, `but` is not a JavaScript tool). There may be more ways to solve this problem without `if` or `%` (there usually are in JavaScript!), but if you did it the way we did, you should run the loop 6 times with console log per loop iteration.
@@ -92,14 +98,29 @@ for (let i = 0; i < upper.length; i++)
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
 banner(8)
-let str5 = "Whoa, I am the best!"
-let newStr = str5.split("")
+// let str5 = "Whoa, I am the best!"
+// let newStr = str5.split("")
 
-for(i=0;i < newStr.length; i++){
-    if(i === 8 || i === 9)
-    console.log(newStr[i].toUpperCase())
-    else
-    console.log(newStr[i])} 
+// for(i=0;i < newStr.length; i++){
+//     if(i === 8 || i === 9)
+//     console.log(newStr[i].toUpperCase())
+//     else
+//     console.log(newStr[i])} 
+
+const str8 = "Whoa, I am the best!"
+let spaces = 0
+
+for (let i = 0; i < str8.length; i++){
+    if (spaces === 2){
+    console.log(str8[i].toUpperCase())
+}else{
+    console.log(str8[i])
+}
+
+if (str8[i] ===' '){
+    spaces++
+} 
+}
 // 9.
 //
 // For the string 'I am become death, destroyer of worlds.', console out the letters
@@ -120,7 +141,17 @@ banner(10)
 
 const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|Bogdan|Sharod|David|LaToddra|Carlos';
 
+for (let i = 0; i < 0, i++;){
+    if (i===0){
+        console.log('Here today is:')
+    }else if
+        (names[i]=== '|')
+    
+    if (names[i] !== '|'){
+        console.log(names[i])
+    }
 
+}
 // Console out the individual letters of each person in class today, which are
 // in the string above. Every time you start a new name (including the first
 // one!), console out the string: 'Here today is:'.
